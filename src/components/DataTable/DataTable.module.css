@@ -1,0 +1,27 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tableHead {
+    background-color: #f5f5f5;
+  }
+  
+  .tableRow {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tableHeader,
+  .tableCell {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    gap: 1rem;
+  }

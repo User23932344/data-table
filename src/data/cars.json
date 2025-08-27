@@ -1,0 +1,1341 @@
+[
+  {
+    "id": 1,
+    "brand": "Audi",
+    "model": "A4",
+    "year": 2020,
+    "engine": {
+      "name": "2.0 TFSI",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 190,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 2,
+    "brand": "BMW",
+    "model": "320i",
+    "year": 2021,
+    "engine": {
+      "name": "2.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 3,
+    "brand": "Mercedes-Benz",
+    "model": "C200",
+    "year": 2021,
+    "engine": {
+      "name": "M264",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 4,
+    "brand": "Audi",
+    "model": "Model 1",
+    "year": 2016,
+    "engine": {
+      "name": "2.0 TFSI",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 190,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 5,
+    "brand": "Audi",
+    "model": "Model 2",
+    "year": 2017,
+    "engine": {
+      "name": "3.0 TDI",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 231,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 6,
+    "brand": "Audi",
+    "model": "Model 3",
+    "year": 2018,
+    "engine": {
+      "name": "1.4 TFSI",
+      "type": "Petrol",
+      "capacity": 1.4,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 7,
+    "brand": "Audi",
+    "model": "Model 4",
+    "year": 2019,
+    "engine": {
+      "name": "2.0 TFSI",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 190,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 8,
+    "brand": "Audi",
+    "model": "Model 5",
+    "year": 2020,
+    "engine": {
+      "name": "3.0 TDI",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 231,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 9,
+    "brand": "Audi",
+    "model": "Model 6",
+    "year": 2021,
+    "engine": {
+      "name": "1.4 TFSI",
+      "type": "Petrol",
+      "capacity": 1.4,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 10,
+    "brand": "Audi",
+    "model": "Model 7",
+    "year": 2022,
+    "engine": {
+      "name": "2.0 TFSI",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 190,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 11,
+    "brand": "Audi",
+    "model": "Model 8",
+    "year": 2023,
+    "engine": {
+      "name": "3.0 TDI",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 231,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 12,
+    "brand": "Audi",
+    "model": "Model 9",
+    "year": 2024,
+    "engine": {
+      "name": "1.4 TFSI",
+      "type": "Petrol",
+      "capacity": 1.4,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 13,
+    "brand": "Audi",
+    "model": "Model 10",
+    "year": 2015,
+    "engine": {
+      "name": "2.0 TFSI",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 190,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 14,
+    "brand": "Audi",
+    "model": "Model 11",
+    "year": 2016,
+    "engine": {
+      "name": "3.0 TDI",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 231,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 15,
+    "brand": "Audi",
+    "model": "Model 12",
+    "year": 2017,
+    "engine": {
+      "name": "1.4 TFSI",
+      "type": "Petrol",
+      "capacity": 1.4,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 16,
+    "brand": "Audi",
+    "model": "Model 13",
+    "year": 2018,
+    "engine": {
+      "name": "2.0 TFSI",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 190,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 17,
+    "brand": "Audi",
+    "model": "Model 14",
+    "year": 2019,
+    "engine": {
+      "name": "3.0 TDI",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 231,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 18,
+    "brand": "Audi",
+    "model": "Model 15",
+    "year": 2020,
+    "engine": {
+      "name": "1.4 TFSI",
+      "type": "Petrol",
+      "capacity": 1.4,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 19,
+    "brand": "Audi",
+    "model": "Model 16",
+    "year": 2021,
+    "engine": {
+      "name": "2.0 TFSI",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 190,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 20,
+    "brand": "Audi",
+    "model": "Model 17",
+    "year": 2022,
+    "engine": {
+      "name": "3.0 TDI",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 231,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 21,
+    "brand": "Audi",
+    "model": "Model 18",
+    "year": 2023,
+    "engine": {
+      "name": "1.4 TFSI",
+      "type": "Petrol",
+      "capacity": 1.4,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 22,
+    "brand": "Audi",
+    "model": "Model 19",
+    "year": 2024,
+    "engine": {
+      "name": "2.0 TFSI",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 190,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 23,
+    "brand": "Audi",
+    "model": "Model 20",
+    "year": 2015,
+    "engine": {
+      "name": "3.0 TDI",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 231,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 24,
+    "brand": "BMW",
+    "model": "Model 1",
+    "year": 2016,
+    "engine": {
+      "name": "2.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 25,
+    "brand": "BMW",
+    "model": "Model 2",
+    "year": 2017,
+    "engine": {
+      "name": "3.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 340,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 26,
+    "brand": "BMW",
+    "model": "Model 3",
+    "year": 2018,
+    "engine": {
+      "name": "1.5 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 140,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 27,
+    "brand": "BMW",
+    "model": "Model 4",
+    "year": 2019,
+    "engine": {
+      "name": "2.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 28,
+    "brand": "BMW",
+    "model": "Model 5",
+    "year": 2020,
+    "engine": {
+      "name": "3.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 340,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 29,
+    "brand": "BMW",
+    "model": "Model 6",
+    "year": 2021,
+    "engine": {
+      "name": "1.5 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 140,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 30,
+    "brand": "BMW",
+    "model": "Model 7",
+    "year": 2022,
+    "engine": {
+      "name": "2.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 31,
+    "brand": "BMW",
+    "model": "Model 8",
+    "year": 2023,
+    "engine": {
+      "name": "3.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 340,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 32,
+    "brand": "BMW",
+    "model": "Model 9",
+    "year": 2024,
+    "engine": {
+      "name": "1.5 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 140,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 33,
+    "brand": "BMW",
+    "model": "Model 10",
+    "year": 2015,
+    "engine": {
+      "name": "2.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 34,
+    "brand": "BMW",
+    "model": "Model 11",
+    "year": 2016,
+    "engine": {
+      "name": "3.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 340,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 35,
+    "brand": "BMW",
+    "model": "Model 12",
+    "year": 2017,
+    "engine": {
+      "name": "1.5 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 140,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 36,
+    "brand": "BMW",
+    "model": "Model 13",
+    "year": 2018,
+    "engine": {
+      "name": "2.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 37,
+    "brand": "BMW",
+    "model": "Model 14",
+    "year": 2019,
+    "engine": {
+      "name": "3.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 340,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 38,
+    "brand": "BMW",
+    "model": "Model 15",
+    "year": 2020,
+    "engine": {
+      "name": "1.5 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 140,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 39,
+    "brand": "BMW",
+    "model": "Model 16",
+    "year": 2021,
+    "engine": {
+      "name": "2.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 40,
+    "brand": "BMW",
+    "model": "Model 17",
+    "year": 2022,
+    "engine": {
+      "name": "3.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 340,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 41,
+    "brand": "BMW",
+    "model": "Model 18",
+    "year": 2023,
+    "engine": {
+      "name": "1.5 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 140,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 42,
+    "brand": "BMW",
+    "model": "Model 19",
+    "year": 2024,
+    "engine": {
+      "name": "2.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 2.0,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 43,
+    "brand": "BMW",
+    "model": "Model 20",
+    "year": 2015,
+    "engine": {
+      "name": "3.0 TwinPower Turbo",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 340,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 44,
+    "brand": "Mercedes-Benz",
+    "model": "Model 1",
+    "year": 2016,
+    "engine": {
+      "name": "OM654",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 194,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 45,
+    "brand": "Mercedes-Benz",
+    "model": "Model 2",
+    "year": 2017,
+    "engine": {
+      "name": "M256",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 367,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 46,
+    "brand": "Mercedes-Benz",
+    "model": "Model 3",
+    "year": 2018,
+    "engine": {
+      "name": "M264",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 47,
+    "brand": "Mercedes-Benz",
+    "model": "Model 4",
+    "year": 2019,
+    "engine": {
+      "name": "OM654",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 194,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 48,
+    "brand": "Mercedes-Benz",
+    "model": "Model 5",
+    "year": 2020,
+    "engine": {
+      "name": "M256",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 367,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 49,
+    "brand": "Mercedes-Benz",
+    "model": "Model 6",
+    "year": 2021,
+    "engine": {
+      "name": "M264",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 50,
+    "brand": "Mercedes-Benz",
+    "model": "Model 7",
+    "year": 2022,
+    "engine": {
+      "name": "OM654",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 194,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 51,
+    "brand": "Mercedes-Benz",
+    "model": "Model 8",
+    "year": 2023,
+    "engine": {
+      "name": "M256",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 367,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 52,
+    "brand": "Mercedes-Benz",
+    "model": "Model 9",
+    "year": 2024,
+    "engine": {
+      "name": "M264",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 53,
+    "brand": "Mercedes-Benz",
+    "model": "Model 10",
+    "year": 2015,
+    "engine": {
+      "name": "OM654",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 194,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 54,
+    "brand": "Mercedes-Benz",
+    "model": "Model 11",
+    "year": 2016,
+    "engine": {
+      "name": "M256",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 367,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 55,
+    "brand": "Mercedes-Benz",
+    "model": "Model 12",
+    "year": 2017,
+    "engine": {
+      "name": "M264",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 56,
+    "brand": "Mercedes-Benz",
+    "model": "Model 13",
+    "year": 2018,
+    "engine": {
+      "name": "OM654",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 194,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 57,
+    "brand": "Mercedes-Benz",
+    "model": "Model 14",
+    "year": 2019,
+    "engine": {
+      "name": "M256",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 367,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 58,
+    "brand": "Mercedes-Benz",
+    "model": "Model 15",
+    "year": 2020,
+    "engine": {
+      "name": "M264",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 59,
+    "brand": "Mercedes-Benz",
+    "model": "Model 16",
+    "year": 2021,
+    "engine": {
+      "name": "OM654",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 194,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 60,
+    "brand": "Mercedes-Benz",
+    "model": "Model 17",
+    "year": 2022,
+    "engine": {
+      "name": "M256",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 367,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 61,
+    "brand": "Mercedes-Benz",
+    "model": "Model 18",
+    "year": 2023,
+    "engine": {
+      "name": "M264",
+      "type": "Petrol",
+      "capacity": 1.5,
+      "horsepower": 184,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 62,
+    "brand": "Mercedes-Benz",
+    "model": "Model 19",
+    "year": 2024,
+    "engine": {
+      "name": "OM654",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 194,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 63,
+    "brand": "Mercedes-Benz",
+    "model": "Model 20",
+    "year": 2015,
+    "engine": {
+      "name": "M256",
+      "type": "Petrol",
+      "capacity": 3.0,
+      "horsepower": 367,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 64,
+    "brand": "Toyota",
+    "model": "Model 1",
+    "year": 2016,
+    "engine": {
+      "name": "2GR-FKS",
+      "type": "Petrol",
+      "capacity": 3.5,
+      "horsepower": 301,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 65,
+    "brand": "Toyota",
+    "model": "Model 2",
+    "year": 2017,
+    "engine": {
+      "name": "1KD-FTV",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 170,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 66,
+    "brand": "Toyota",
+    "model": "Model 3",
+    "year": 2018,
+    "engine": {
+      "name": "2ZR-FE",
+      "type": "Petrol",
+      "capacity": 1.8,
+      "horsepower": 140,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 67,
+    "brand": "Toyota",
+    "model": "Model 4",
+    "year": 2019,
+    "engine": {
+      "name": "2GR-FKS",
+      "type": "Petrol",
+      "capacity": 3.5,
+      "horsepower": 301,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 68,
+    "brand": "Toyota",
+    "model": "Model 5",
+    "year": 2020,
+    "engine": {
+      "name": "1KD-FTV",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 170,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 69,
+    "brand": "Toyota",
+    "model": "Model 6",
+    "year": 2021,
+    "engine": {
+      "name": "2ZR-FE",
+      "type": "Petrol",
+      "capacity": 1.8,
+      "horsepower": 140,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 70,
+    "brand": "Toyota",
+    "model": "Model 7",
+    "year": 2022,
+    "engine": {
+      "name": "2GR-FKS",
+      "type": "Petrol",
+      "capacity": 3.5,
+      "horsepower": 301,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 71,
+    "brand": "Toyota",
+    "model": "Model 8",
+    "year": 2023,
+    "engine": {
+      "name": "1KD-FTV",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 170,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 72,
+    "brand": "Toyota",
+    "model": "Model 9",
+    "year": 2024,
+    "engine": {
+      "name": "2ZR-FE",
+      "type": "Petrol",
+      "capacity": 1.8,
+      "horsepower": 140,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 73,
+    "brand": "Toyota",
+    "model": "Model 10",
+    "year": 2015,
+    "engine": {
+      "name": "2GR-FKS",
+      "type": "Petrol",
+      "capacity": 3.5,
+      "horsepower": 301,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 74,
+    "brand": "Toyota",
+    "model": "Model 11",
+    "year": 2016,
+    "engine": {
+      "name": "1KD-FTV",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 170,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 75,
+    "brand": "Toyota",
+    "model": "Model 12",
+    "year": 2017,
+    "engine": {
+      "name": "2ZR-FE",
+      "type": "Petrol",
+      "capacity": 1.8,
+      "horsepower": 140,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 76,
+    "brand": "Toyota",
+    "model": "Model 13",
+    "year": 2018,
+    "engine": {
+      "name": "2GR-FKS",
+      "type": "Petrol",
+      "capacity": 3.5,
+      "horsepower": 301,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 77,
+    "brand": "Toyota",
+    "model": "Model 14",
+    "year": 2019,
+    "engine": {
+      "name": "1KD-FTV",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 170,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 78,
+    "brand": "Toyota",
+    "model": "Model 15",
+    "year": 2020,
+    "engine": {
+      "name": "2ZR-FE",
+      "type": "Petrol",
+      "capacity": 1.8,
+      "horsepower": 140,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 79,
+    "brand": "Toyota",
+    "model": "Model 16",
+    "year": 2021,
+    "engine": {
+      "name": "2GR-FKS",
+      "type": "Petrol",
+      "capacity": 3.5,
+      "horsepower": 301,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 80,
+    "brand": "Toyota",
+    "model": "Model 17",
+    "year": 2022,
+    "engine": {
+      "name": "1KD-FTV",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 170,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 81,
+    "brand": "Toyota",
+    "model": "Model 18",
+    "year": 2023,
+    "engine": {
+      "name": "2ZR-FE",
+      "type": "Petrol",
+      "capacity": 1.8,
+      "horsepower": 140,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 82,
+    "brand": "Toyota",
+    "model": "Model 19",
+    "year": 2024,
+    "engine": {
+      "name": "2GR-FKS",
+      "type": "Petrol",
+      "capacity": 3.5,
+      "horsepower": 301,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 83,
+    "brand": "Toyota",
+    "model": "Model 20",
+    "year": 2015,
+    "engine": {
+      "name": "1KD-FTV",
+      "type": "Diesel",
+      "capacity": 3.0,
+      "horsepower": 170,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 84,
+    "brand": "Volkswagen",
+    "model": "Model 1",
+    "year": 2016,
+    "engine": {
+      "name": "2.0 TDI",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 85,
+    "brand": "Volkswagen",
+    "model": "Model 2",
+    "year": 2017,
+    "engine": {
+      "name": "2.5 VR6",
+      "type": "Petrol",
+      "capacity": 2.5,
+      "horsepower": 204,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 86,
+    "brand": "Volkswagen",
+    "model": "Model 3",
+    "year": 2018,
+    "engine": {
+      "name": "1.0 TSI",
+      "type": "Petrol",
+      "capacity": 1.0,
+      "horsepower": 115,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 87,
+    "brand": "Volkswagen",
+    "model": "Model 4",
+    "year": 2019,
+    "engine": {
+      "name": "2.0 TDI",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 88,
+    "brand": "Volkswagen",
+    "model": "Model 5",
+    "year": 2020,
+    "engine": {
+      "name": "2.5 VR6",
+      "type": "Petrol",
+      "capacity": 2.5,
+      "horsepower": 204,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 89,
+    "brand": "Volkswagen",
+    "model": "Model 6",
+    "year": 2021,
+    "engine": {
+      "name": "1.0 TSI",
+      "type": "Petrol",
+      "capacity": 1.0,
+      "horsepower": 115,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 90,
+    "brand": "Volkswagen",
+    "model": "Model 7",
+    "year": 2022,
+    "engine": {
+      "name": "2.0 TDI",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 91,
+    "brand": "Volkswagen",
+    "model": "Model 8",
+    "year": 2023,
+    "engine": {
+      "name": "2.5 VR6",
+      "type": "Petrol",
+      "capacity": 2.5,
+      "horsepower": 204,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 92,
+    "brand": "Volkswagen",
+    "model": "Model 9",
+    "year": 2024,
+    "engine": {
+      "name": "1.0 TSI",
+      "type": "Petrol",
+      "capacity": 1.0,
+      "horsepower": 115,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 93,
+    "brand": "Volkswagen",
+    "model": "Model 10",
+    "year": 2015,
+    "engine": {
+      "name": "2.0 TDI",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 94,
+    "brand": "Volkswagen",
+    "model": "Model 11",
+    "year": 2016,
+    "engine": {
+      "name": "2.5 VR6",
+      "type": "Petrol",
+      "capacity": 2.5,
+      "horsepower": 204,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 95,
+    "brand": "Volkswagen",
+    "model": "Model 12",
+    "year": 2017,
+    "engine": {
+      "name": "1.0 TSI",
+      "type": "Petrol",
+      "capacity": 1.0,
+      "horsepower": 115,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 96,
+    "brand": "Volkswagen",
+    "model": "Model 13",
+    "year": 2018,
+    "engine": {
+      "name": "2.0 TDI",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 97,
+    "brand": "Volkswagen",
+    "model": "Model 14",
+    "year": 2019,
+    "engine": {
+      "name": "2.5 VR6",
+      "type": "Petrol",
+      "capacity": 2.5,
+      "horsepower": 204,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 98,
+    "brand": "Volkswagen",
+    "model": "Model 15",
+    "year": 2020,
+    "engine": {
+      "name": "1.0 TSI",
+      "type": "Petrol",
+      "capacity": 1.0,
+      "horsepower": 115,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 99,
+    "brand": "Volkswagen",
+    "model": "Model 16",
+    "year": 2021,
+    "engine": {
+      "name": "2.0 TDI",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 100,
+    "brand": "Volkswagen",
+    "model": "Model 17",
+    "year": 2022,
+    "engine": {
+      "name": "2.5 VR6",
+      "type": "Petrol",
+      "capacity": 2.5,
+      "horsepower": 204,
+      "cylinders": 6
+    }
+  },
+  {
+    "id": 101,
+    "brand": "Volkswagen",
+    "model": "Model 18",
+    "year": 2023,
+    "engine": {
+      "name": "1.0 TSI",
+      "type": "Petrol",
+      "capacity": 1.0,
+      "horsepower": 115,
+      "cylinders": 3
+    }
+  },
+  {
+    "id": 102,
+    "brand": "Volkswagen",
+    "model": "Model 19",
+    "year": 2024,
+    "engine": {
+      "name": "2.0 TDI",
+      "type": "Diesel",
+      "capacity": 2.0,
+      "horsepower": 150,
+      "cylinders": 4
+    }
+  },
+  {
+    "id": 103,
+    "brand": "Volkswagen",
+    "model": "Model 20",
+    "year": 2015,
+    "engine": {
+      "name": "2.5 VR6",
+      "type": "Petrol",
+      "capacity": 2.5,
+      "horsepower": 204,
+      "cylinders": 6
+    }
+  }
+]
