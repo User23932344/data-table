@@ -1,7 +1,8 @@
 "use client";
 import { useMemo, useState } from "react";
 import rawCars from "@/data/cars.json";
-import type { Car, SortableColumn } from "@/types/car.ts";
+import type { Car, SortableColumn } from "@/types/car";
+import Filters from "./Filters"; 
 import styles from "./DataTable.module.css";
 
 const cars: Car[] = rawCars as Car[];
@@ -20,14 +21,48 @@ function getValue(car: Car, column: SortableColumn): string | number {
   }
 }
 
+type SortOrder = "asc" | "desc" | "none";
+
+const getAriaSort = (
+  column: SortableColumn,
+  sortColumn: SortableColumn | null,
+  sortOrder: SortOrder
+): "ascending" | "descending" | "none" => {
+  if (sortColumn !== column) return "none";
+  return sortOrder === "asc" ? "ascending" : "descending";
+};
+
+const columns: { key: SortableColumn; label: string }[] = [
+  { key: "id", label: "ID" },
+  { key: "brand", label: "Бренд" },
+  { key: "model", label: "Модель" },
+  { key: "year", label: "Год пр-ва" },
+  { key: "engine.name", label: "Название двигателя" },
+  { key: "engine.type", label: "Тип двигателя" },
+  { key: "engine.capacity", label: "Объем" },
+  { key: "engine.horsepower", label: "Мощность" },
+  { key: "engine.cylinders", label: "Цилиндры" },
+];
+
 export default function DataTable() {
   const itemsPerPage = 30;
   const [page, setPage] = useState(1);
   const [sortColumn, setSortColumn] = useState<SortableColumn | null>(null);
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
 
+  const [filters, setFilters] = useState<Partial<Record<SortableColumn, string | number>>>({});
+
+  const filteredCars = useMemo(() => {
+    return cars.filter((car) =>
+      Object.entries(filters).every(([key, value]) => {
+        if (value === undefined || value === "") return true;
+        return String(getValue(car, key as SortableColumn)) === String(value);
+      })
+    );
+  }, [filters]);  
+
   const sortedCars = useMemo(() => {
-    const arr = [...cars];
+    const arr = [...filteredCars];
     if (!sortColumn) return arr;
 
     return arr.sort((a, b) => {
@@ -40,7 +75,7 @@ export default function DataTable() {
       const cmp = String(av).localeCompare(String(bv), "ru", { sensitivity: "base" });
       return sortOrder === "asc" ? cmp : -cmp;
     });
-  }, [sortColumn, sortOrder]);
+  }, [filteredCars, sortColumn, sortOrder]);
 
   const totalPages = Math.ceil(sortedCars.length / itemsPerPage);
   const startIndex = (page - 1) * itemsPerPage;
@@ -53,7 +88,7 @@ export default function DataTable() {
       setSortColumn(col);
       setSortOrder("asc");
     }
-    setPage(1); 
+    setPage(1);
   };
 
   const arrow = (col: SortableColumn) =>
@@ -61,133 +96,31 @@ export default function DataTable() {
 
   return (
     <>
-      <table className={styles.table}>
-      <thead className={styles.tableHead}>
-  <tr className={styles.tableRow}>
-    <th
-      onClick={() => handleSort("id")}
-      aria-sort={
-        sortColumn === "id"
-          ? sortOrder === "asc"
-            ? "ascending"
-            : "descending"
-          : "none"
-      }
-    >
-      ID{arrow("id")}
-    </th>
-    <th
-      onClick={() => handleSort("brand")}
-      aria-sort={
-        sortColumn === "brand"
-          ? sortOrder === "asc"
-            ? "ascending"
-            : "descending"
-          : "none"
-      }
-    >
-      Бренд{arrow("brand")}
-    </th>
-    <th
-      onClick={() => handleSort("model")}
-      aria-sort={
-        sortColumn === "model"
-          ? sortOrder === "asc"
-            ? "ascending"
-            : "descending"
-          : "none"
-      }
-    >
-      Модель{arrow("model")}
-    </th>
-    <th
-      onClick={() => handleSort("year")}
-      aria-sort={
-        sortColumn === "year"
-          ? sortOrder === "asc"
-            ? "ascending"
-            : "descending"
-          : "none"
-      }
-    >
-      Год пр-ва{arrow("year")}
-    </th>
-    <th
-      onClick={() => handleSort("engine.name")}
-      aria-sort={
-        sortColumn === "engine.name"
-          ? sortOrder === "asc"
-            ? "ascending"
-            : "descending"
-          : "none"
-      }
-    >
-      Название двигателя{arrow("engine.name")}
-    </th>
-    <th
-      onClick={() => handleSort("engine.type")}
-      aria-sort={
-        sortColumn === "engine.type"
-          ? sortOrder === "asc"
-            ? "ascending"
-            : "descending"
-          : "none"
-      }
-    >
-      Тип двигателя{arrow("engine.type")}
-    </th>
-    <th
-      onClick={() => handleSort("engine.capacity")}
-      aria-sort={
-        sortColumn === "engine.capacity"
-          ? sortOrder === "asc"
-            ? "ascending"
-            : "descending"
-          : "none"
-      }
-    >
-      Объем{arrow("engine.capacity")}
-    </th>
-    <th
-      onClick={() => handleSort("engine.horsepower")}
-      aria-sort={
-        sortColumn === "engine.horsepower"
-          ? sortOrder === "asc"
-            ? "ascending"
-            : "descending"
-          : "none"
-      }
-    >
-      Мощность{arrow("engine.horsepower")}
-    </th>
-    <th
-      onClick={() => handleSort("engine.cylinders")}
-      aria-sort={
-        sortColumn === "engine.cylinders"
-          ? sortOrder === "asc"
-            ? "ascending"
-            : "descending"
-          : "none"
-      }
-    >
-      Цилиндры{arrow("engine.cylinders")}
-    </th>
-  </tr>
-</thead>
+      <Filters filters={filters} setFilters={setFilters} cars={cars} />
 
+      <table className={styles.table}>
+        <thead className={styles.tableHead}>
+          <tr className={styles.tableRow}>
+            {columns.map(({ key, label }) => (
+              <th
+                key={key}
+                onClick={() => handleSort(key)}
+                aria-sort={getAriaSort(key, sortColumn, sortOrder)}
+              >
+                {label}{arrow(key)}
+              </th>
+            ))}
+          </tr>
+        </thead>
 
         <tbody className={styles.tableBody}>
           {currentCars.map((row) => (
             <tr key={row.id} className={styles.tableRow}>
-              <td className={styles.tableCell}>{row.id}</td>
-              <td className={styles.tableCell}>{row.brand}</td>
-              <td className={styles.tableCell}>{row.model}</td>
-              <td className={styles.tableCell}>{row.year}</td>
-              <td className={styles.tableCell}>{row.engine.name}</td>
-              <td className={styles.tableCell}>{row.engine.type}</td>
-              <td className={styles.tableCell}>{row.engine.capacity}</td>
-              <td className={styles.tableCell}>{row.engine.horsepower}</td>
-              <td className={styles.tableCell}>{row.engine.cylinders}</td>
+              {columns.map(({ key }) => (
+                <td key={key} className={styles.tableCell}>
+                  {String(getValue(row, key))}
+                </td>
+              ))}
             </tr>
           ))}
         </tbody>
